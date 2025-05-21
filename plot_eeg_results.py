@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/Users/refobic/Downloads/Project/EEG_KNN_Results.csv')
+df = pd.read_csv('/Users/refobic/Downloads/Project/EEG_KNN_Results_Detailed.csv')
 
 # Option A: using pivot_table
 pivot_acc = df.pivot_table(
